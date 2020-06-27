@@ -1,6 +1,4 @@
-const { ReactComponent } = require("*.svg");
-
-import React from 'react'
+import React from 'react';
 
 function Board (props) {
     const drop = e => {
@@ -29,4 +27,4 @@ function Board (props) {
     )
 }
 
-export default Board
+export default Board;
